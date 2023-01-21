@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="81978AB9-A6E8-8A2C-C2B3-1C4BA6669B6B" name="ITEM">
+<createdBy>HP</createdBy>
+<createdTime>2023-01-21 11:07:10 UTC</createdTime>
+<ownerDesignName>Projekt4-1</ownerDesignName>
+<engineerTo>
+<item key="07D1D4CD-FD98-B394-4766-09D5207986AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>ITE</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Number" id="EEB7E9FB-09FE-41A6-63D5-81A04C884CE2">
+<createdBy>HP</createdBy>
+<createdTime>2023-01-21 11:07:18 UTC</createdTime>
+<ownerDesignName>Projekt4-1</ownerDesignName>
+<engineerTo>
+<item key="07D1D4CD-FD98-B394-4766-09D5207986AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="C17B8C55-66C2-00DB-BEB3-DB7900142560">
+<createdBy>HP</createdBy>
+<createdTime>2023-01-21 11:07:37 UTC</createdTime>
+<ownerDesignName>Projekt4-1</ownerDesignName>
+<engineerTo>
+<item key="07D1D4CD-FD98-B394-4766-09D5207986AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="D8A11DFD-399E-C408-E33D-AE7ADF1FD59D">
+<createdBy>HP</createdBy>
+<createdTime>2023-01-21 11:07:49 UTC</createdTime>
+<ownerDesignName>Projekt4-1</ownerDesignName>
+<engineerTo>
+<item key="07D1D4CD-FD98-B394-4766-09D5207986AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Category" id="21F6E419-E177-665D-3A12-0EF94984CBFF">
+<createdBy>HP</createdBy>
+<createdTime>2023-01-21 11:08:21 UTC</createdTime>
+<ownerDesignName>Projekt4-1</ownerDesignName>
+<engineerTo>
+<item key="07D1D4CD-FD98-B394-4766-09D5207986AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Color" id="DBE8CB1E-2FE6-A00C-B8F0-88D8CCAE1E41">
+<createdBy>HP</createdBy>
+<createdTime>2023-01-21 11:08:33 UTC</createdTime>
+<ownerDesignName>Projekt4-1</ownerDesignName>
+<engineerTo>
+<item key="07D1D4CD-FD98-B394-4766-09D5207986AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Size" id="BFAC975B-4219-5119-4873-E17F5A4A48FF">
+<createdBy>HP</createdBy>
+<createdTime>2023-01-21 11:08:42 UTC</createdTime>
+<ownerDesignName>Projekt4-1</ownerDesignName>
+<engineerTo>
+<item key="07D1D4CD-FD98-B394-4766-09D5207986AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="905BF532-F9EB-C10C-3564-CDB32C6C1EC7">
+<createdBy>HP</createdBy>
+<createdTime>2023-01-21 11:36:13 UTC</createdTime>
+<generatorID>E84814C5-C275-4C99-722A-8D7FA72B5590</generatorID>
+<ownerDesignName>Projekt4-1</ownerDesignName>
+<engineerTo>
+<item key="07D1D4CD-FD98-B394-4766-09D5207986AC" value="true"/>
+</engineerTo>
+<referedAttribute>CC4123D5-608F-9B08-25C5-002733E7A538</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="73B48E32-6EB3-EA6B-6566-5677087865EB" name="ITEM PK">
+<createdBy>HP</createdBy>
+<createdTime>2023-01-21 11:07:34 UTC</createdTime>
+<ownerDesignName>Projekt4-1</ownerDesignName>
+<engineerTo>
+<item key="07D1D4CD-FD98-B394-4766-09D5207986AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EEB7E9FB-09FE-41A6-63D5-81A04C884CE2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

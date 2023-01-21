@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="15CE34BF-5CC8-8D68-9814-F6DDC2B600CF" name="ORDER">
+<createdBy>HP</createdBy>
+<createdTime>2023-01-21 11:02:11 UTC</createdTime>
+<ownerDesignName>Projekt4-1</ownerDesignName>
+<engineerTo>
+<item key="07D1D4CD-FD98-B394-4766-09D5207986AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>ORD</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="E6E751EB-11A1-FD36-62E7-5E7676936465">
+<createdBy>HP</createdBy>
+<createdTime>2023-01-21 11:02:18 UTC</createdTime>
+<ownerDesignName>Projekt4-1</ownerDesignName>
+<engineerTo>
+<item key="07D1D4CD-FD98-B394-4766-09D5207986AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="8289484C-D213-2B05-E168-552C58C79A5C">
+<createdBy>HP</createdBy>
+<createdTime>2023-01-21 11:02:29 UTC</createdTime>
+<ownerDesignName>Projekt4-1</ownerDesignName>
+<engineerTo>
+<item key="07D1D4CD-FD98-B394-4766-09D5207986AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Time" id="252E107A-80D8-6E18-C175-D556C1A4131D">
+<createdBy>HP</createdBy>
+<createdTime>2023-01-21 11:02:35 UTC</createdTime>
+<ownerDesignName>Projekt4-1</ownerDesignName>
+<engineerTo>
+<item key="07D1D4CD-FD98-B394-4766-09D5207986AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number of units" id="E44D4404-D159-D631-601F-D845F36E2078">
+<createdBy>HP</createdBy>
+<createdTime>2023-01-21 11:02:42 UTC</createdTime>
+<ownerDesignName>Projekt4-1</ownerDesignName>
+<engineerTo>
+<item key="07D1D4CD-FD98-B394-4766-09D5207986AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number" id="5571F008-4C4A-F7F3-6083-2259D3CB4E6F">
+<createdBy>HP</createdBy>
+<createdTime>2023-01-21 11:32:26 UTC</createdTime>
+<generatorID>18C3DB0C-D2BA-4F4D-DC55-E0E0AE3384DF</generatorID>
+<ownerDesignName>Projekt4-1</ownerDesignName>
+<engineerTo>
+<item key="07D1D4CD-FD98-B394-4766-09D5207986AC" value="true"/>
+</engineerTo>
+<referedAttribute>53F0DBE7-997C-ACCF-2857-B595F08A2AAC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A8273063-711D-33F8-1656-C2091DFC19C2" name="ORDER PK">
+<createdBy>HP</createdBy>
+<createdTime>2023-01-21 11:02:27 UTC</createdTime>
+<ownerDesignName>Projekt4-1</ownerDesignName>
+<engineerTo>
+<item key="07D1D4CD-FD98-B394-4766-09D5207986AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E6E751EB-11A1-FD36-62E7-5E7676936465</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

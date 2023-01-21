@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E469435C-E696-27C4-28A8-31661F767B15" name="SALES REPRESENTATIVE">
+<createdBy>HP</createdBy>
+<createdTime>2023-01-21 11:00:25 UTC</createdTime>
+<ownerDesignName>Projekt4-1</ownerDesignName>
+<engineerTo>
+<item key="07D1D4CD-FD98-B394-4766-09D5207986AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>SRE</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="D50923D4-29C0-575C-2A30-8D4385E0D87C">
+<createdBy>HP</createdBy>
+<createdTime>2023-01-21 11:00:36 UTC</createdTime>
+<ownerDesignName>Projekt4-1</ownerDesignName>
+<engineerTo>
+<item key="07D1D4CD-FD98-B394-4766-09D5207986AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="0E63D378-300C-23FF-EEF1-C5BCD5BBD6EF">
+<createdBy>HP</createdBy>
+<createdTime>2023-01-21 11:00:47 UTC</createdTime>
+<ownerDesignName>Projekt4-1</ownerDesignName>
+<engineerTo>
+<item key="07D1D4CD-FD98-B394-4766-09D5207986AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="First name" id="28621888-719D-528A-CCA8-094AB4FC5EB0">
+<createdBy>HP</createdBy>
+<createdTime>2023-01-21 11:00:58 UTC</createdTime>
+<ownerDesignName>Projekt4-1</ownerDesignName>
+<engineerTo>
+<item key="07D1D4CD-FD98-B394-4766-09D5207986AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Last name" id="27F51508-9C22-C6DD-C47B-09C0DF585F37">
+<createdBy>HP</createdBy>
+<createdTime>2023-01-21 11:01:09 UTC</createdTime>
+<ownerDesignName>Projekt4-1</ownerDesignName>
+<engineerTo>
+<item key="07D1D4CD-FD98-B394-4766-09D5207986AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone number" id="63CCD1AB-005B-0D04-5085-AD7E912BBF1C">
+<createdBy>HP</createdBy>
+<createdTime>2023-01-21 11:01:18 UTC</createdTime>
+<ownerDesignName>Projekt4-1</ownerDesignName>
+<engineerTo>
+<item key="07D1D4CD-FD98-B394-4766-09D5207986AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Commission rate" id="28638863-82B4-51D0-2AE0-73496933C0F7">
+<createdBy>HP</createdBy>
+<createdTime>2023-01-21 11:01:35 UTC</createdTime>
+<ownerDesignName>Projekt4-1</ownerDesignName>
+<engineerTo>
+<item key="07D1D4CD-FD98-B394-4766-09D5207986AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="9B3C8259-9E66-9AF2-2E86-3D9376E4D3F2">
+<createdBy>HP</createdBy>
+<createdTime>2023-01-21 11:36:44 UTC</createdTime>
+<generatorID>DC44D0D2-F0D7-C917-BDDF-C6F89B32C051</generatorID>
+<ownerDesignName>Projekt4-1</ownerDesignName>
+<engineerTo>
+<item key="07D1D4CD-FD98-B394-4766-09D5207986AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D50923D4-29C0-575C-2A30-8D4385E0D87C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EEF65BB0-6197-5800-02AB-6D47076A2695" name="SALES REPRESENTATIVE PK">
+<createdBy>HP</createdBy>
+<createdTime>2023-01-21 11:00:46 UTC</createdTime>
+<ownerDesignName>Projekt4-1</ownerDesignName>
+<engineerTo>
+<item key="07D1D4CD-FD98-B394-4766-09D5207986AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D50923D4-29C0-575C-2A30-8D4385E0D87C</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="5DC2FF6F-0BCC-2EB9-98AF-5C4BBFA1442B" name="Key_2">
+<createdBy>HP</createdBy>
+<createdTime>2023-01-21 11:01:59 UTC</createdTime>
+<ownerDesignName>Projekt4-1</ownerDesignName>
+<engineerTo>
+<item key="07D1D4CD-FD98-B394-4766-09D5207986AC" value="true"/>
+</engineerTo>
+<newElementsIDs>0E63D378-300C-23FF-EEF1-C5BCD5BBD6EF</newElementsIDs>
+<usedAttributes>
+<attributeRef>0E63D378-300C-23FF-EEF1-C5BCD5BBD6EF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
